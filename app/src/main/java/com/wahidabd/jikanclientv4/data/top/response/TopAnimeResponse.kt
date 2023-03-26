@@ -1,0 +1,42 @@
+package com.wahidabd.jikanclientv4.data.top.response
+
+import com.wahidabd.jikanclientv4.data.responses.*
+
+data class TopAnimeResponse(
+    val airedResponse: AiredResponse,
+    val airing: Boolean,
+    val approved: Boolean,
+    val background: String,
+    val broadcast: BroadcastResponse,
+    val demographics: List<DemographicResponse>,
+    val duration: String,
+    val episodes: Int,
+    val explicit_genres: List<Any>,
+    val favorites: Int,
+    val genres: List<GenreResponse>,
+    val images: ImagesResponse,
+    val licensors: List<LicensorResponse>,
+    val mal_id: Int,
+    val members: Int,
+    val popularity: Int,
+    val producers: List<ProducerResponse>,
+    val rank: Int,
+    val rating: String,
+    val score: Double,
+    val scored_by: Int,
+    val season: String,
+    val source: String,
+    val status: String,
+    val studios: List<StudioResponse>,
+    val synopsis: String,
+    val themes: List<ThemeResponse>,
+    val title: String,
+    val title_english: String,
+    val title_japanese: String,
+    val title_synonyms: List<String>,
+    val titles: List<TitleResponse>,
+    val trailer: TrailerResponse,
+    val type: String,
+    val url: String,
+    val year: Int
+)
